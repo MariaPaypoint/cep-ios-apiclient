@@ -25,11 +25,19 @@ All URIs are relative to *http://localhost*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
+*CoursesAPI* | [**createCourseApiV1CoursesPost**](docs/CoursesAPI.md#createcourseapiv1coursespost) | **POST** /api/v1/courses/ | Create Course
+*CoursesAPI* | [**deleteCourseApiV1CoursesIdDelete**](docs/CoursesAPI.md#deletecourseapiv1coursesiddelete) | **DELETE** /api/v1/courses/{id} | Delete Course
+*CoursesAPI* | [**readCourseApiV1CoursesIdGet**](docs/CoursesAPI.md#readcourseapiv1coursesidget) | **GET** /api/v1/courses/{id} | Read Course
+*CoursesAPI* | [**readCoursesApiV1CoursesGet**](docs/CoursesAPI.md#readcoursesapiv1coursesget) | **GET** /api/v1/courses/ | Read Courses
+*CoursesAPI* | [**searchCoursesApiV1CoursesSearchGet**](docs/CoursesAPI.md#searchcoursesapiv1coursessearchget) | **GET** /api/v1/courses/search/ | Search Courses
+*CoursesAPI* | [**updateCourseApiV1CoursesIdPut**](docs/CoursesAPI.md#updatecourseapiv1coursesidput) | **PUT** /api/v1/courses/{id} | Update Course
+*CoursesAPI* | [**verifyCourseApiV1CoursesVerifyIdPost**](docs/CoursesAPI.md#verifycourseapiv1coursesverifyidpost) | **POST** /api/v1/courses/verify/{id} | Verify Course
 *ItemsAPI* | [**createItemApiV1ItemsPost**](docs/ItemsAPI.md#createitemapiv1itemspost) | **POST** /api/v1/items/ | Create Item
 *ItemsAPI* | [**deleteItemApiV1ItemsIdDelete**](docs/ItemsAPI.md#deleteitemapiv1itemsiddelete) | **DELETE** /api/v1/items/{id} | Delete Item
 *ItemsAPI* | [**readItemApiV1ItemsIdGet**](docs/ItemsAPI.md#readitemapiv1itemsidget) | **GET** /api/v1/items/{id} | Read Item
 *ItemsAPI* | [**readItemsApiV1ItemsGet**](docs/ItemsAPI.md#readitemsapiv1itemsget) | **GET** /api/v1/items/ | Read Items
 *ItemsAPI* | [**updateItemApiV1ItemsIdPut**](docs/ItemsAPI.md#updateitemapiv1itemsidput) | **PUT** /api/v1/items/{id} | Update Item
+*KeywordsAPI* | [**readKeywordsApiV1KeywordsGet**](docs/KeywordsAPI.md#readkeywordsapiv1keywordsget) | **GET** /api/v1/keywords/ | Read Keywords
 *LoginAPI* | [**loginAccessTokenApiV1LoginAccessTokenPost**](docs/LoginAPI.md#loginaccesstokenapiv1loginaccesstokenpost) | **POST** /api/v1/login/access-token | Login Access Token
 *LoginAPI* | [**recoverPasswordApiV1PasswordRecoveryEmailPost**](docs/LoginAPI.md#recoverpasswordapiv1passwordrecoveryemailpost) | **POST** /api/v1/password-recovery/{email} | Recover Password
 *LoginAPI* | [**resetPasswordApiV1ResetPasswordPost**](docs/LoginAPI.md#resetpasswordapiv1resetpasswordpost) | **POST** /api/v1/reset-password/ | Reset Password
@@ -50,10 +58,16 @@ Class | Method | HTTP request | Description
  - [BodyCreateUserOpenApiV1UsersOpenPost](docs/BodyCreateUserOpenApiV1UsersOpenPost.md)
  - [BodyResetPasswordApiV1ResetPasswordPost](docs/BodyResetPasswordApiV1ResetPasswordPost.md)
  - [BodyUpdateUserMeApiV1UsersMePut](docs/BodyUpdateUserMeApiV1UsersMePut.md)
+ - [Course](docs/Course.md)
+ - [CourseCreate](docs/CourseCreate.md)
+ - [CourseInfo](docs/CourseInfo.md)
+ - [CourseUpdate](docs/CourseUpdate.md)
  - [HTTPValidationError](docs/HTTPValidationError.md)
  - [Item](docs/Item.md)
  - [ItemCreate](docs/ItemCreate.md)
  - [ItemUpdate](docs/ItemUpdate.md)
+ - [Keyword](docs/Keyword.md)
+ - [KeywordValue](docs/KeywordValue.md)
  - [LocationInner](docs/LocationInner.md)
  - [Msg](docs/Msg.md)
  - [Token](docs/Token.md)
