@@ -77,10 +77,13 @@ Class | Method | HTTP request | Description
  - [ValidationError](docs/ValidationError.md)
 
 
+<a id="documentation-for-authorization"></a>
 ## Documentation For Authorization
 
 
-## OAuth2PasswordBearer
+Authentication schemes defined for the API:
+<a id="OAuth2PasswordBearer"></a>
+### OAuth2PasswordBearer
 
 - **Type**: OAuth
 - **Flow**: password
